@@ -1,6 +1,31 @@
 {
-  "name": "chrome-extension",
-  "version": "1.0.0",
+  "name": "@ballgame/chrome-extension",
+  "version": "0.0.1",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "author": {
+    "name": "Sam Uherek"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack --config webpack.dev.js",
+    "watch": "webpack -w --config webpack.dev.js",
+    "lint": "tslint 'src/**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.81",
+    "@types/react": "^16.8.5",
+    "@types/react-dom": "^16.8.2",
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-merge": "^4.2.1"
+  }
 }
