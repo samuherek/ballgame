@@ -13,8 +13,8 @@
     "lint": "tslint 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.81",
